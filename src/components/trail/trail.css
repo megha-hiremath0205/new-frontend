@@ -1,0 +1,33 @@
+.building-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.building-info h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #88c0ff;
+}
+
+/* Hide controls section */
+.controls-container {
+    display: none !important;
+}
+
+/* Alternative: If you want to hide specific elements */
+.controls-panel {
+    display: none !important;
+}
+
+/* Or if you want to hide by position */
+[style*="bottom: 20px"][style*="left: 20px"] {
+    display: none !important;
+}
+
+/* If you're using class names, add this to your controls div */
+.hidden-controls {
+    display: none !important;
+}
